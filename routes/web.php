@@ -69,13 +69,13 @@ Route::group(['middleware' => ['auth']],function (){
 
     //  heroSection
 
-    Route::get('hero/index',[HeroController::class,'index'])->name('hero.index');
-    Route::get('hero/create',[HeroController::class,'create'])->name('hero.create');
-    Route::post('hero/store',[HeroController::class,'store'])->name('hero.store');
-    Route::get('hero/edit/{hero}',[HeroController::class,'edit'])->name('hero.edit');
-    Route::get('hero/delete/{hero}',[HeroController::class,'delete'])->name('hero.delete');
-    Route::get('hero/duplicate/{hero}',[HeroController::class,'duplicate'])->name('hero.duplicate');
-    Route::post('hero/update/{hero}',[HeroController::class,'update'])->name('hero.update');
+//    Route::get('hero/index',[HeroController::class,'index'])->name('hero.index');
+//    Route::get('hero/create',[HeroController::class,'create'])->name('hero.create');
+//    Route::post('hero/store',[HeroController::class,'store'])->name('hero.store');
+//    Route::get('hero/edit/{hero}',[HeroController::class,'edit'])->name('hero.edit');
+//    Route::get('hero/delete/{hero}',[HeroController::class,'delete'])->name('hero.delete');
+//    Route::get('hero/duplicate/{hero}',[HeroController::class,'duplicate'])->name('hero.duplicate');
+//    Route::post('hero/update/{hero}',[HeroController::class,'update'])->name('hero.update');
 
 
 
